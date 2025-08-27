@@ -96,7 +96,7 @@ nmap --script smb-ls --script-args smbusername=user,smbpassword=pass,share=C$ ta
 | Module | CVE | Cible | Description |
 |--------|-----|-------|-------------|
 | `exploit/multi/samba/usermap_script` | CVE-2007-2447 | Samba 3.0.20-3.0.25rc3 | Username map script |
-| `exploit/linux/samba/is_known_pipename` | CVE-2017-7494 | Samba 3.5.0-4.6.4 | SambaCry RCE |
+| `exploit/linux/samba/is_known_pipename` | CVE-2017-7494 | Samba 3.5.0-4.6.4 | SambaCry RCE |   ***
 | `exploit/linux/samba/setinfopolicy_heap` | CVE-2012-1182 | Samba 3.6.3-4.6.16 | Heap overflow |
 
 ### Modules d'administration
